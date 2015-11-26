@@ -494,7 +494,8 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #008B8B;
+    border-image-source:"http://tierarztpraxis-pulheim.de/wp-content/uploads/2015/08/Pfeil-1024x1024.png";
 }
 
 .timeline>li .timeline-image h4 {
@@ -636,6 +637,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    background-image: url("Git/alomero/img/team/nino1.JPG");
 }
 
 .team-member h4 {
