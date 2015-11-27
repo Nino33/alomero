@@ -90,21 +90,29 @@
         </div>
     </header>
 
+
+
     <!-- Services Section -->
     
-    <section id="service">
-      <a href="http://de.wikipedia.org" target="_blank">
-<img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png" border="0" alt="wikipedia - die freie enzyklopädie" align="middle" width="240" height="60" /></a> 
+    <section id="service" style="background-color:#f5f5f0;">
+        <div align="center" >
+        <a href="http://de.wikipedia.org" target="_blank">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png" border="0" alt="wikipedia - die freie enzyklopädie" align="center" width="240" height="60" /></a> 
 <br /><br />
         
-<form title="wiki" name="search" method="post" action="http://de.wikipedia.org/wiki/" target="_blank">
-  <div align="left">
-    <input type="text" name="search" size="30" id="eingabe"/>
+        <form title="wiki" name="search" method="post" action="http://de.wikipedia.org/wiki/" target="_blank">
+  
+    <input type="text" name="search" size="30" id="eingabe" >
     <br>
-    <input type="button" name="suchen" value="Suche" onclick="window.open('http://de.wikipedia.org/wiki/' + search.value)">
-    <input type="submit" name="go" value="Artikel" />
+    <input type="button" name="suchen" value="Artikelsuche" onclick="window.open('http://de.wikipedia.org/wiki/' + search.value)">
+    <input type="submit" name="go" value="Volltextsuche" onclick="window.open('https://de.wikipedia.org/wiki/Spezial:Suche?search=' + search.value + '&fulltext=Volltextsuche')">
   </div>
 </form>
+        <br>
+        <br>
+        <br>
+  
+        
         
     <!-- Codecademy Section -->
      <section id="portfolio" class="bg-light-gray">
@@ -261,8 +269,7 @@
             
         </div>
     </section>
-
-    <section id="contact" style="background-color:blue;">
+<section id="contact" style="background-color:#ffc549;">
     <!-- Contact Section -->
                  <div class="col-lg-4 col-lg-offset-2 text-center" >
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
