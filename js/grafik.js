@@ -4,7 +4,7 @@ google.setOnLoadCallback(statistic);
 function neuladen() {
 location.reload();
 }
-window.setTimeout("neuladen()",5000);
+window.setTimeout("neuladen()",30000);
 
 function statistic() {
 
